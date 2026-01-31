@@ -1,14 +1,7 @@
 {
-  "name": "notion-mcp-render",
+  "name": "official-notion-mcp",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.1",
-    "@notionhq/client": "^2.2.15",
-    "express": "^4.21.1",
-    "zod": "^3.23.8"
+    "start": "npx @notionhq/notion-mcp-server --transport http --port $PORT"
   }
 }
